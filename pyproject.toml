@@ -11,7 +11,7 @@ requires-python = ">=3.11"
 dependencies = [
     "process-bigraph>=0.0.10",
     "bigraph-schema",
-    "pbg-superpowers",
+    "viva-superpowers",
     "pyyaml",
     "numpy",
     "bigraph-viz>=2.0.3",
@@ -28,7 +28,7 @@ dev = ["pytest", "matplotlib", "bigraph-viz"]
 
 [tool.uv.sources]
 vivarium-workbench = { git = "https://github.com/vivarium-collective/vivarium-dashboard.git", branch = "main" }
-pbg-superpowers = { git = "https://github.com/vivarium-collective/pbg-superpowers.git", branch = "main" }
+viva-superpowers = { git = "https://github.com/vivarium-collective/viva-superpowers.git", branch = "main" }
 
 [tool.setuptools.packages.find]
 include = ["pbg_yalla*"]
